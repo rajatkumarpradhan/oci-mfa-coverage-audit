@@ -1,0 +1,19 @@
+{
+  "users": [
+    {"ocid": "ocid1.user.oc1..u1", "name": "rakesh", "user_type": "console",
+     "mfa_enrolled": false, "enabled": true, "last_login": "2026-11-18",
+     "groups": ["network-admins"]},
+    {"ocid": "ocid1.user.oc1..u2", "name": "priya", "user_type": "console",
+     "mfa_enrolled": false, "enabled": true, "last_login": "2026-11-17",
+     "groups": ["developers"]},
+    {"ocid": "ocid1.user.oc1..u3", "name": "old-contractor", "user_type": "console",
+     "mfa_enrolled": true, "enabled": true, "last_login": "2026-05-01",
+     "groups": ["viewers"]},
+    {"ocid": "ocid1.user.oc1..u4", "name": "floating-user", "user_type": "console",
+     "mfa_enrolled": true, "enabled": true, "last_login": "2026-11-10",
+     "groups": []},
+    {"ocid": "ocid1.user.oc1..u5", "name": "ci-service", "user_type": "service",
+     "mfa_enrolled": false, "enabled": true, "last_login": null,
+     "groups": ["automation"]}
+  ]
+}
