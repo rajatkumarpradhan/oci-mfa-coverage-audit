@@ -1,0 +1,13 @@
+{
+  "users": [
+    {"ocid": "ocid1.user.oc1..u9", "name": "priya", "user_type": "console",
+     "mfa_enrolled": true, "enabled": true, "last_login": "2026-11-18",
+     "groups": ["network-admins"]},
+    {"ocid": "ocid1.user.oc1..u10", "name": "rakesh", "user_type": "console",
+     "mfa_enrolled": true, "enabled": true, "last_login": "2026-11-17",
+     "groups": ["developers"]},
+    {"ocid": "ocid1.user.oc1..u11", "name": "old-contractor", "user_type": "console",
+     "mfa_enrolled": true, "enabled": false, "last_login": "2026-05-01",
+     "groups": ["viewers"]}
+  ]
+}
